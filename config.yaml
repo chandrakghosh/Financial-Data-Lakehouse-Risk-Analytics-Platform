@@ -1,0 +1,18 @@
+project:
+  name: "Financial Data Lakehouse & Risk Analytics Platform"
+  version: "1.0.0"
+
+data:
+  raw_path: "data/raw"
+  bronze_path: "data/bronze"
+  silver_path: "data/silver"
+  gold_path: "data/gold"
+
+database:
+  schema_staging: "staging"
+  schema_warehouse: "warehouse"
+  schema_analytics: "analytics"
+  schema_audit: "audit"
+
+models:
+  random_state: 42
