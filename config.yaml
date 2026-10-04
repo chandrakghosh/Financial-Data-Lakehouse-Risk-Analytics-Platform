@@ -8,6 +8,28 @@ data:
   silver_path: "data/silver"
   gold_path: "data/gold"
 
+market:
+  tickers:
+    - AAPL
+    - MSFT
+    - GOOGL
+    - AMZN
+    - NVDA
+    - SPY
+
+  start_date: "2020-01-01"
+  interval: "1d"
+
+economic:
+  fred_series:
+    - DFF
+    - DGS10
+    - VIXCLS
+    - CPIAUCSL
+    - UNRATE
+
+  start_date: "2020-01-01"
+
 database:
   schema_staging: "staging"
   schema_warehouse: "warehouse"
