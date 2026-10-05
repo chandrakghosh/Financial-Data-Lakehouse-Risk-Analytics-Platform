@@ -11,11 +11,17 @@ __pycache__/
 # Jupyter
 .ipynb_checkpoints/
 
-# Data
+# Data files
 data/raw/*
 data/bronze/*
 data/silver/*
 data/gold/*
+
+# Keep data directory structure
+!data/raw/.gitkeep
+!data/bronze/.gitkeep
+!data/silver/.gitkeep
+!data/gold/.gitkeep
 
 # Logs
 logs/*.log
